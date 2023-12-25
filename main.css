@@ -1,0 +1,134 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: indianred;
+}
+
+
+.news-item {
+  display: flex; /* Используем flexbox для горизонтального расположения изображения и текста */
+  border: 1px solid #cccccc; /* Добавляем границу для выделения контейнера новости */
+  padding: 20px; /* Добавляем внутренние отступы */
+  background-color: #f9f9f9; /* Цвет фона для новостного блока */
+  margin-bottom: 20px; /* Добавляем отступ снизу */
+}
+.navigation li {
+	display: block;
+	margin-right: 30px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bold;
+}
+
+.navigation a {
+	text-decoration: unset	;
+	color: white;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+}
+.container img {
+	display: flex;
+	align-items: normal;
+}
+
+.main-header p {
+	width: 800px;
+}
+
+section {
+	margin-top: 10px;
+}
+
+.cards {
+	display: flex;
+	
+	justify-content: space-between;
+	border: auto;
+	height: auto;
+}
+
+.card {
+	width: 2800px;
+	border: 10px white;
+	padding:15px;
+}
+
+
+
+.card_3_button {
+	font-size: 10px;
+	background-color: indianred;
+	width: 100px;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.card_3_button a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	display: block;
+	border: gray;
+}
+.news-item {
+  display: flex;
+  background-color: #2596be;
+  margin-bottom: 20px; 
+}
+
+.news-image {
+
+  width: 500px; 
+  margin-right: 30px; 
+  display: flex;
+  align-items: center;
+}
+.title {
+	text-align: center;
+}
+.card_1 img {
+	display: flex;
+	height: 200px;
+	width: 300px;
+} 
+}
+.news-content {
+  background-color: #2596be;
+  color: black;
+}
+
+.card_1 {
+	display: flex;
+	
+	background-color: #2596be;
+	width: 6000px;
+	padding: 50px 100px;
+
+}
+.card_2 img{
+	width: 270px;
+	height: 270px;
+}
+.card img{
+	width: 250px;
+	height: 250px;
+}
+
+.news-content {
+  flex-grow: 1; 
+}
+
+.cards p{
+	flex-grow: 1; 
+}
+
+
