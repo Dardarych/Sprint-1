@@ -8,11 +8,11 @@ header {
 
 
 .news-item {
-  display: flex; /* Используем flexbox для горизонтального расположения изображения и текста */
-  border: 1px solid #cccccc; /* Добавляем границу для выделения контейнера новости */
-  padding: 20px; /* Добавляем внутренние отступы */
-  background-color: #f9f9f9; /* Цвет фона для новостного блока */
-  margin-bottom: 20px; /* Добавляем отступ снизу */
+  display: flex; 
+  border: 1px solid #cccccc; 
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  margin-bottom: 20px; 
 }
 .navigation li {
 	display: block;
